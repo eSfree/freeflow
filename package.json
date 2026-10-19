@@ -1,0 +1,20 @@
+{
+  "name": "projectflow",
+  "version": "1.0.0",
+  "description": "ProjectFlow - Web-based Project Management System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test test/"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "connect-sqlite3": "^0.9.18",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0"
+  }
+}
